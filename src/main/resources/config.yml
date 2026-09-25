@@ -1,0 +1,39 @@
+# EventArena configuration
+
+world:
+  name: "event_world"
+  # Conceptual outer size of the flat world. NOTE: Bukkit/Paper only supports a
+  # single active WorldBorder per world, so this value is NOT a second border -
+  # it documents the intended generation footprint. The border players actually
+  # collide with is `border.default-size` below, changed at runtime with /border.
+  size: 400
+  drop-depth: 100          # blocks of empty space created above bedrock by /drop
+  chunks-per-tick: 4        # how many chunks /drop processes per server tick (TPS safety)
+
+border:
+  default-size: 100
+  min-size: 8
+  max-size: 400
+
+event:
+  min-players: 2
+  max-players: 50
+  countdown-seconds: 15
+  allow-block-place: false
+  allow-block-break: false
+  spread-radius: 40         # radius around arena center players are spread on start
+
+spectator:
+  allow-fly: true
+  release-after-event: true
+
+victory:
+  sound: ENTITY_ENDER_DRAGON_GROWL
+  firework: true
+  message: "&6&l[EVENT] &e%player% &6has won the %mode% Event!"
+
+announce:
+  format: "&8[&c&lEVENT&8] &f%message%"
+
+messages-file: messages.yml
+kits-file: kits.yml

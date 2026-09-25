@@ -1,0 +1,82 @@
+# Kit definitions per event mode.
+# item format: MATERIAL[:amount][ display name via 'name'][ lore list][ enchants map]
+# slot: 0-8 hotbar, 9-35 inventory, or armor: helmet/chestplate/leggings/boots, or offhand
+
+CRYSTAL_PVP:
+  armor:
+    helmet: "AIR"
+    chestplate: "DIAMOND_CHESTPLATE"
+    leggings: "DIAMOND_LEGGINGS"
+    boots: "DIAMOND_BOOTS"
+  items:
+    - slot: 0
+      material: DIAMOND_PICKAXE
+      enchants: { EFFICIENCY: 5 }
+    - slot: 1
+      material: END_CRYSTAL
+      amount: 64
+    - slot: 2
+      material: OBSIDIAN
+      amount: 64
+    - slot: 3
+      material: BEDROCK
+      amount: 6
+    - slot: 4
+      material: GOLDEN_APPLE
+      amount: 16
+    - slot: 8
+      material: ENDER_PEARL
+      amount: 8
+
+MACE_PVP:
+  armor:
+    helmet: "NETHERITE_HELMET"
+    chestplate: "NETHERITE_CHESTPLATE"
+    leggings: "NETHERITE_LEGGINGS"
+    boots: "NETHERITE_BOOTS"
+  items:
+    - slot: 0
+      material: MACE
+      enchants: { DENSITY: 5, WIND_BURST: 3 }
+    - slot: 1
+      material: WIND_CHARGE
+      amount: 16
+    - slot: 4
+      material: GOLDEN_APPLE
+      amount: 16
+
+SWORD_PVP:
+  armor:
+    helmet: "DIAMOND_HELMET"
+    chestplate: "DIAMOND_CHESTPLATE"
+    leggings: "DIAMOND_LEGGINGS"
+    boots: "DIAMOND_BOOTS"
+  items:
+    - slot: 0
+      material: DIAMOND_SWORD
+      enchants: { SHARPNESS: 5, KNOCKBACK: 1 }
+    - slot: 4
+      material: GOLDEN_APPLE
+      amount: 16
+    - slot: 5
+      material: BOW
+      enchants: { POWER: 2 }
+    - slot: 6
+      material: ARROW
+      amount: 32
+
+AXE_PVP:
+  armor:
+    helmet: "DIAMOND_HELMET"
+    chestplate: "DIAMOND_CHESTPLATE"
+    leggings: "DIAMOND_LEGGINGS"
+    boots: "DIAMOND_BOOTS"
+  items:
+    - slot: 0
+      material: DIAMOND_AXE
+      enchants: { SHARPNESS: 5 }
+    - slot: 4
+      material: GOLDEN_APPLE
+      amount: 16
+    - slot: 8
+      material: SHIELD

@@ -1,0 +1,42 @@
+prefix: "&8[&c&lEVENT&8] &r"
+
+no-permission: "&cYou don't have permission to do that."
+player-only: "&cOnly players can use this command."
+
+event-not-created: "&cNo event has been created yet. Use /event make."
+event-already-exists: "&cAn event already exists. Stop it first with /event stop."
+event-created: "&aEvent created: &e%mode%"
+
+joined: "&aYou joined the event! &7(%current%/%max%)"
+already-joined: "&cYou are already in the event."
+left: "&eYou left the event."
+not-in-event: "&cYou are not in the event."
+event-full: "&cThe event is full."
+event-already-started: "&cThis event has already started."
+cannot-join-active: "&cThis event is already in progress, you can't join now."
+
+not-enough-players: "&cNeed at least %min% players to start."
+starting-countdown: "&eEvent starting in &c%seconds% &eseconds..."
+event-started: "&a&lThe event has started! Fight!"
+event-stopped: "&cThe event has been stopped by an administrator."
+
+eliminated: "&cYou have been eliminated! You are now spectating."
+eliminated-broadcast: "&7%player% &chas been eliminated. &7(%remaining% remaining)"
+winner-broadcast: "&6&l[EVENT] &e%player% &6has won the %mode% Event!"
+
+revived: "&aYou have been revived."
+revive-all-done: "&aAll eliminated players have been revived."
+revive-not-eliminated: "&cThat player is not eliminated."
+revive-not-found: "&cPlayer not found or not in this event."
+
+border-set: "&aEvent border set to &e%size%x%size%."
+border-invalid: "&cInvalid border size. Must be between %min% and %max%."
+
+drop-started: "&eClearing arena down to bedrock, this may take a few seconds..."
+drop-done: "&aArena cleared."
+
+status-header: "&8&m----------&r &c&lEVENT STATUS &8&m----------"
+status-mode: "&7Mode: &f%mode%"
+status-players: "&7Players: &f%current%/%max%"
+status-border: "&7Border: &f%size%x%size%"
+status-state: "&7Status: &f%state%"
